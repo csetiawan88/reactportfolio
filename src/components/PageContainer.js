@@ -54,8 +54,8 @@ export default function PortfolioContainer() {
   return (
     <>
       {/* Header section */}
-      <header class="header-container">
-        <h1 class="christian-title">Christian Setiawan</h1>
+      <header className="header-container">
+        <h1 className="christian-title">Christian Setiawan</h1>
         {/* Render the Navbar component and pass in `currentPage` and `handlePageChange` as props */}
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>

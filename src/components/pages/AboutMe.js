@@ -11,7 +11,7 @@ import profilePic from "../../images/profilePic.png";
 export default function AboutMe() {
   return (
     // Create a div element with the class "aboutme"
-    <div class="aboutme">
+    <div className="aboutme">
       {/* Create a heading with the text "About Me" */}
       <h1>About Me</h1>
 

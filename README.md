@@ -52,7 +52,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 - npm install (install all packages required)
 - npm start
-- Else click on Link:
 
 ## Repository - Link
 

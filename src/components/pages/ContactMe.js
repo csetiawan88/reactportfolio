@@ -58,7 +58,7 @@ export default function ContactMe() {
   };
 
   return (
-    <div class="contactme">
+    <div className="contactme">
       <h1>Contact Me</h1>
       <p>(Contact csetiawan@yahoo.com if you would like to get in touch!)</p>
       <form className="form">
@@ -88,7 +88,7 @@ export default function ContactMe() {
           placeholder=""
         ></textarea>
         <br></br>
-        <button class="button" type="button" onClick={handleFormSubmit}>
+        <button className="button" type="button" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>

@@ -7,12 +7,12 @@ import linkedInLogo from "../images/linkedin-mark.png";
 // Define a functional React component called Footer
 export default function Footer() {
   return (
-    <footer class="center-footer">
+    <footer className="center-footer">
       {/* Create a link to Christian Setiawan's GitHub profile */}
       <a target="_blank" rel="noreferrer" href="https://github.com/csetiawan88">
         {/* Display the GitHub logo with an alt text */}
         <img
-          class="footer-logo"
+          className="footer-logo"
           src={githubLogo}
           alt="github logo which links to Christian Setiawan's github profile"
         ></img>
@@ -25,7 +25,7 @@ export default function Footer() {
       >
         {/* Display the LinkedIn logo with an alt text */}
         <img
-          class="footer-logo"
+          className="footer-logo"
           src={linkedInLogo}
           alt="linkdcin logo which links to Christian Setiawan's LinkedIn profile"
         ></img>

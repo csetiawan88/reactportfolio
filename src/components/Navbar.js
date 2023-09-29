@@ -6,8 +6,8 @@ import "../styles/Header.css";
 // It receives two props: `currentPage` and `handlePageChange`
 export default function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar-container">
-      <ul class="navbar-style">
+    <nav className="navbar-container">
+      <ul className="navbar-style">
         {/* Navigation item 1: About Me */}
         <li>
           <a

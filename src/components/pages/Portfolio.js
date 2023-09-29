@@ -12,19 +12,23 @@ import githublogo from "../../images/github-mark-white.png";
 // Define a functional React component called Portfolio
 export default function Portfolio() {
   return (
-    <div class="portfolio">
+    <div className="portfolio">
       <h1>Portfolio</h1>
 
-      <div class="portfolio-flex-wrap">
+      <div className="portfolio-flex-wrap">
         {/* Portfolio item 1: Travel Gem Explorer */}
-        <div class="flex-wrap-item">
-          <figure class="container">
-            <img src={travelgem} alt="Travel Gem Explorer" class="image"></img>
-            <div class="middle">
-              <div class="text text-success">
+        <div className="flex-wrap-item">
+          <figure className="container">
+            <img
+              src={travelgem}
+              alt="Travel Gem Explorer"
+              className="image"
+            ></img>
+            <div className="middle">
+              <div className="text text-success">
                 {/* Link to the project and GitHub repository */}
                 <a
-                  class="text"
+                  className="text"
                   href="https://travelgem-explorer-6412c66d7631.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -39,7 +43,7 @@ export default function Portfolio() {
                   <img
                     src={githublogo}
                     alt="github logo"
-                    class="github-icon"
+                    className="github-icon"
                   ></img>
                 </a>
               </div>
@@ -48,14 +52,14 @@ export default function Portfolio() {
         </div>
 
         {/* Portfolio item 2: Movie Search */}
-        <div class="flex-wrap-item">
-          <figure class="container">
-            <img src={moviesearch} alt="Movie Search" class="image"></img>
-            <div class="middle">
-              <div class="text">
+        <div className="flex-wrap-item">
+          <figure className="container">
+            <img src={moviesearch} alt="Movie Search" className="image"></img>
+            <div className="middle">
+              <div className="text">
                 {/* Link to the project and GitHub repository */}
                 <a
-                  class="text"
+                  className="text"
                   href="https://csetiawan88.github.io/moviesearch/"
                   target="_blank"
                   rel="noreferrer"
@@ -70,7 +74,7 @@ export default function Portfolio() {
                   <img
                     src={githublogo}
                     alt="github logo"
-                    class="github-icon"
+                    className="github-icon"
                   ></img>
                 </a>
               </div>
@@ -79,18 +83,18 @@ export default function Portfolio() {
         </div>
 
         {/* Portfolio item 3: Weather Dashboard */}
-        <div class="flex-wrap-item">
-          <figure class="container">
+        <div className="flex-wrap-item">
+          <figure className="container">
             <img
               src={WeatherDashboard}
               alt="Weather Dashboard"
-              class="image"
+              className="image"
             ></img>
-            <div class="middle">
-              <div class="text">
+            <div className="middle">
+              <div className="text">
                 {/* Link to the project and GitHub repository */}
                 <a
-                  class="text"
+                  className="text"
                   href="https://csetiawan88.github.io/weatherdashboard/"
                   target="_blank"
                   rel="noreferrer"
@@ -105,7 +109,7 @@ export default function Portfolio() {
                   <img
                     src={githublogo}
                     alt="github logo"
-                    class="github-icon"
+                    className="github-icon"
                   ></img>
                 </a>
               </div>
@@ -114,14 +118,14 @@ export default function Portfolio() {
         </div>
 
         {/* Portfolio item 4: Code Quiz */}
-        <div class="flex-wrap-item">
-          <figure class="container">
-            <img src={CodingQuiz} alt="Coding Quiz" class="image"></img>
-            <div class="middle">
-              <div class="text">
+        <div className="flex-wrap-item">
+          <figure className="container">
+            <img src={CodingQuiz} alt="Coding Quiz" className="image"></img>
+            <div className="middle">
+              <div className="text">
                 {/* Link to the project and GitHub repository */}
                 <a
-                  class="text"
+                  className="text"
                   href="https://csetiawan88.github.io/quiz/"
                   target="_blank"
                   rel="noreferrer"
@@ -136,7 +140,7 @@ export default function Portfolio() {
                   <img
                     src={githublogo}
                     alt="github logo"
-                    class="github-icon"
+                    className="github-icon"
                   ></img>
                 </a>
               </div>
@@ -145,14 +149,14 @@ export default function Portfolio() {
         </div>
 
         {/* Portfolio item 5: Tech Blog */}
-        <div class="flex-wrap-item">
-          <figure class="container">
-            <img src={TechBlog} alt="Tech Blog" class="image"></img>
-            <div class="middle">
-              <div class="text">
+        <div className="flex-wrap-item">
+          <figure className="container">
+            <img src={TechBlog} alt="Tech Blog" className="image"></img>
+            <div className="middle">
+              <div className="text">
                 {/* Link to the project and GitHub repository */}
                 <a
-                  class="text"
+                  className="text"
                   href="https://techblog888-e00900e4a40b.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -167,7 +171,7 @@ export default function Portfolio() {
                   <img
                     src={githublogo}
                     alt="github logo"
-                    class="github-icon"
+                    className="github-icon"
                   ></img>
                 </a>
               </div>
@@ -176,18 +180,18 @@ export default function Portfolio() {
         </div>
 
         {/* Portfolio item 6: Work Day Scheduler */}
-        <div class="flex-wrap-item">
-          <figure class="container">
+        <div className="flex-wrap-item">
+          <figure className="container">
             <img
               src={workdayscheduler}
               alt="Work Day Scheduler"
-              class="image"
+              className="image"
             ></img>
-            <div class="middle">
-              <div class="text">
+            <div className="middle">
+              <div className="text">
                 {/* Link to the project and GitHub repository */}
                 <a
-                  class="text"
+                  className="text"
                   href="https://csetiawan88.github.io/workdayscheduler/"
                   target="_blank"
                   rel="noreferrer"
@@ -202,7 +206,7 @@ export default function Portfolio() {
                   <img
                     src={githublogo}
                     alt="github logo"
-                    class="github-icon"
+                    className="github-icon"
                   ></img>
                 </a>
               </div>
