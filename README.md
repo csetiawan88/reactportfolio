@@ -59,7 +59,7 @@ GITHUB: https://github.com/csetiawan88/reactportfolio
 
 ## Website Link
 
-URL:
+URL: https://csetiawan88.github.io/reactportfolio/
 
 ## Contributing
 
