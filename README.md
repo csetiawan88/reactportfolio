@@ -86,6 +86,8 @@ csetiawan88 - https://github.com/csetiawan88/
 
 ## Technologies
 
+REACT
+
 ## Questions
 
 If you have any additional questions, you can reach me at:
