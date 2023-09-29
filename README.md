@@ -56,7 +56,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Repository - Link
 
-GITHUB:
+GITHUB: https://github.com/csetiawan88/reactportfolio
 
 ## Website Link
 
