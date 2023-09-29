@@ -68,9 +68,21 @@ csetiawan88 - https://github.com/csetiawan88/
 
 ## Screenshot
 
-#### React Portfolio
+#### About me
 
 ![React Portfolio](screenshot1.jpg)
+
+#### Portfolio
+
+![React Portfolio](screenshot2.jpg)
+
+#### Contact Me
+
+![React Portfolio](screenshot3.jpg)
+
+#### Resume
+
+![React Portfolio](screenshot4.jpg)
 
 ## Technologies
 
